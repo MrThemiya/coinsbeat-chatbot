@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
-import '../styles/globals.css';
 
 const ChatUI = dynamic(() => import('../components/CoinsbeatAIChat'), { ssr: false });
 
